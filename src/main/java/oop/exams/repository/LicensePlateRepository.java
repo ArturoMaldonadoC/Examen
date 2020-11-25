@@ -13,8 +13,24 @@ public class LicensePlateRepository {
     static {
         regionByState.put("SON", Region.NORTH);
         regionByState.put("CHH", Region.NORTH);
-        regionByState.put("SLP", Region.CENTER);
         regionByState.put("MIC", Region.SOUTH);
+        regionByState.put("TAM", Region.NORTH);
+        regionByState.put("COA", Region.NORTH);
+        regionByState.put("NLE", Region.NORTH);
+        regionByState.put("SIN", Region.WEST);
+        regionByState.put("NAY", Region.WEST);
+        regionByState.put("JAL", Region.WEST);
+        regionByState.put("COL", Region.WEST);
+        regionByState.put("VER", Region.EAST);
+        regionByState.put("TAB", Region.EAST);
+        regionByState.put("CAM", Region.EAST);
+        regionByState.put("YUC", Region.EAST);
+        regionByState.put("ROO", Region.EAST);
+        regionByState.put("SLP", Region.CENTER);
+        regionByState.put("ZAC", Region.CENTER);
+        regionByState.put("GUA", Region.CENTER);
+        regionByState.put("QUE", Region.CENTER);
+        regionByState.put("AGU", Region.CENTER);
     }
 
     public Region getRegionByState(String state) {

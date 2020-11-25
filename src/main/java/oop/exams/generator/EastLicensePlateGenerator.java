@@ -1,6 +1,6 @@
 package oop.exams.generator;
 
-public class DefaultLicensePlateGenerator implements LicensePlateGenerator {
+public class EastLicensePlateGenerator implements LicensePlateGenerator {
     @Override
     public String generate(String state) {
         return null;
